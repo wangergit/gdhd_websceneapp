@@ -1,0 +1,355 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "default",
+      "style2",
+      "style3"
+    ],
+    "version": "2.14",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "http://wanger.scene.com/arcgis",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "广东省航道二三维一体化管理系统",
+  "subtitle": "",
+  "keepAppState": false,
+  "logo": "images/logo.png",
+  "httpProxy": {
+    "useProxy": false,
+    "url": "/proxy.js"
+  },
+  "geometryService": "https://wanger.scene.com/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "广东省航道测绘中心",
+      "url": "https://map.baidu.com/search/%E5%B9%BF%E4%B8%9C%E7%9C%81%E8%88%AA%E9%81%93%E6%B5%8B%E7%BB%98%E4%B8%AD%E5%BF%83/@12624822.438139379,2604404.124905,19z,58t,7.5h?querytype=s&da_src=shareurl&wd=%E5%B9%BF%E4%B8%9C%E7%9C%81%E8%88%AA%E9%81%93%E6%B5%8B%E7%BB%98%E4%B8%AD%E5%BF%83&c=257&src=0&wd2=%E5%B9%BF%E5%B7%9E%E5%B8%82%E7%95%AA%E7%A6%BA%E5%8C%BA&pn=0&sug=1&l=20&b=(12609840.34674,2629649.44875;12610138.78611,2629795.09338)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&sug_forward=31db196a530ecb7708ccdd11&device_ratio=1"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.14",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_13",
+        "url": "/webappbuilder/apps/3/themes/LaunchpadTheme/widgets/AnchorBarController/",
+        "icon": "themes/LaunchpadTheme/widgets/AnchorBarController/images/icon.png",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 9,
+          "top": 10,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_14",
+        "url": "/webappbuilder/apps/3/themes/LaunchpadTheme/widgets/Header/",
+        "icon": "themes/LaunchpadTheme/widgets/Header/images/icon.png",
+        "hasSearchOverlayed": true,
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 344,
+          "top": 16,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_Search_Widget_15",
+        "url": "/webappbuilder/apps/3/widgets/Search/",
+        "icon": "widgets/Search/images/icon.png",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 17,
+          "top": 78,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_ZoomSlider_Widget_16",
+        "url": "/webappbuilder/apps/3/widgets/ZoomSlider/",
+        "icon": "widgets/ZoomSlider/images/icon.png",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/Home/Widget",
+        "position": {
+          "left": 17,
+          "top": 153,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_Home_Widget_17",
+        "url": "/webappbuilder/apps/3/widgets/Home/",
+        "icon": "widgets/Home/images/icon.png",
+        "name": "Home"
+      },
+      {
+        "uri": "widgets/Navigate/Widget",
+        "position": {
+          "left": 17,
+          "top": 191,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_Navigate_Widget_19",
+        "url": "/webappbuilder/apps/3/widgets/Navigate/",
+        "icon": "widgets/Navigate/images/icon.png",
+        "name": "Navigate"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_Coordinate_Widget_20",
+        "url": "/webappbuilder/apps/3/widgets/Coordinate/",
+        "icon": "widgets/Coordinate/images/icon.png",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/Compass/Widget",
+        "position": {
+          "right": 20,
+          "top": 69,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_Compass_Widget_21",
+        "url": "/webappbuilder/apps/3/widgets/Compass/",
+        "icon": "widgets/Compass/images/icon.png",
+        "name": "Compass"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "right": 20,
+          "top": 111,
+          "relativeTo": "map"
+        },
+        "version": "2.14",
+        "id": "widgets_FullScreen_Widget_22",
+        "url": "/webappbuilder/apps/3/widgets/FullScreen/",
+        "icon": "widgets/FullScreen/images/icon.png",
+        "name": "FullScreen"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.14",
+        "id": "widgets_Splash_Widget_23",
+        "url": "/webappbuilder/apps/3/widgets/Splash/",
+        "icon": "widgets/Splash/images/icon.png",
+        "name": "Splash"
+      },
+      {
+        "position": {
+          "right": 20,
+          "top": 17,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_24",
+        "name": "MyLocation",
+        "version": "2.14",
+        "closeable": true,
+        "uri": "widgets/MyLocation/Widget",
+        "url": "/webappbuilder/apps/3/widgets/MyLocation/",
+        "config": "configs/MyLocation/config__24.json"
+      },
+      {
+        "position": {
+          "right": 62,
+          "top": 17,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_25",
+        "name": "Legend",
+        "version": "2.14",
+        "closeable": true,
+        "uri": "widgets/Legend/Widget",
+        "url": "/webappbuilder/apps/3/widgets/Legend/"
+      },
+      {
+        "position": {
+          "right": 104,
+          "top": 17,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_26",
+        "name": "LayerList",
+        "version": "2.14",
+        "closeable": true,
+        "uri": "widgets/LayerList/Widget",
+        "url": "/webappbuilder/apps/3/widgets/LayerList/"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "8a3ef99e845641d99c5e880f569f670d",
+    "mapOptions": {
+      "initialState": null
+    },
+    "id": "map",
+    "portalUrl": "http://wanger.scene.com/arcgis/"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Daylight/Widget",
+        "version": "2.14",
+        "id": "widgets_Daylight_Widget_11",
+        "name": "Daylight",
+        "url": "/webappbuilder/apps/3/widgets/Daylight/",
+        "index": 1,
+        "icon": "widgets/Daylight/images/icon.png"
+      },
+      {
+        "name": "Measurement3D",
+        "version": "2.14",
+        "uri": "widgets/Measurement3D/Widget",
+        "index": 2,
+        "id": "widgets_Measurement3D_Widget_27",
+        "url": "/webappbuilder/apps/3/widgets/Measurement3D/"
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.14",
+        "uri": "widgets/BasemapGallery/Widget",
+        "index": 3,
+        "id": "widgets_BasemapGallery_Widget_28",
+        "url": "/webappbuilder/apps/3/widgets/BasemapGallery/"
+      },
+      {
+        "name": "剖析",
+        "version": "2.14",
+        "icon": "configs\\Slice\\icon_widgets_Slice_Widget_31.png",
+        "uri": "widgets/Slice/Widget",
+        "index": 4,
+        "id": "widgets_Slice_Widget_31",
+        "url": "/webappbuilder/apps/3/widgets/Slice/"
+      },
+      {
+        "name": "Airworthiness",
+        "version": "2.14",
+        "icon": "configs\\Airworthiness\\icon_widgets_Airworthiness_Widget_32.png",
+        "uri": "widgets/Airworthiness/Widget",
+        "index": 5,
+        "id": "widgets_Airworthiness_Widget_32",
+        "url": "/webappbuilder/apps/3/widgets/Airworthiness/"
+      },
+      {
+        "name": "Fly",
+        "version": "2.14",
+        "icon": "configs\\Fly\\icon_widgets_Fly_Widget_33.png",
+        "uri": "widgets/Fly/Widget",
+        "index": 6,
+        "id": "widgets_Fly_Widget_33",
+        "url": "/webappbuilder/apps/3/widgets/Fly/"
+      },
+      {
+        "name": "DynamicShip",
+        "version": "2.14",
+        "icon": "configs\\DynamicShip\\icon_widgets_DynamicShip_Widget_34.png",
+        "uri": "widgets/DynamicShip/Widget",
+        "index": 7,
+        "id": "widgets_DynamicShip_Widget_34",
+        "url": "/webappbuilder/apps/3/widgets/DynamicShip/"
+      },
+      {
+        "name": "export",
+        "version": "2.14",
+        "icon": "configs\\export\\icon_widgets_export_Widget_35.png",
+        "uri": "widgets/export/Widget",
+        "index": 8,
+        "id": "widgets_export_Widget_35",
+        "url": "/webappbuilder/apps/3/widgets/export/"
+      },
+      {
+        "name": "Share",
+        "version": "2.14",
+        "uri": "widgets/Share/Widget",
+        "index": 9,
+        "id": "widgets_Share_Widget_29",
+        "url": "/webappbuilder/apps/3/widgets/Share/"
+      },
+      {
+        "name": "About",
+        "version": "2.14",
+        "uri": "widgets/About/Widget",
+        "index": 10,
+        "id": "widgets_About_Widget_30",
+        "url": "/webappbuilder/apps/3/widgets/About/",
+        "config": "configs/About/config_widgets_About_Widget_30.json"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#ffffff",
+    "backgroundImage": {
+      "visible": true,
+      "uri": "configs/loading/images/background.png",
+      "width": "100%",
+      "height": "100%"
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.14",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "configWabVersion": "2.14",
+  "logoLink": ""
+}
