@@ -138,21 +138,21 @@ function(
                         symbolLayers: [{
                           type: "object",  // autocasts as new ObjectSymbol3DLayer()
                           resource: {
-                              href: "http://localhost/ship3.gltf"
+                              href: "gltf/ship2.glb"
                           },
-                          height: 70,//船高
+                          height: 15,//船高
                           width : 12,//船长
-                          depth : 15,//船宽
+                          depth : 70,//船宽
                           anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
                           heading : angle,
-                          tilt : 90
+                          tilt : 0
                         }]
                     };
                     this.sceneGraphic.symbol = symbol
                     var point = new Point({
                         x: current.x,
                         y: current.y,
-                        z: 5
+                        z: 15
                     });
                     this.sceneGraphic.geometry = point;
                 }

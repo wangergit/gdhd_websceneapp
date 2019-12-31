@@ -289,21 +289,21 @@ define([
       var location = new Point({
         x: 113.390888,
         y: 22.9047366,
-        z: 5
+        z: 13
       });
       var symbol1 = {
           type: "point-3d",  // autocasts as new PointSymbol3D()
           symbolLayers: [{
             type: "object",  // autocasts as new ObjectSymbol3DLayer()
             resource: {
-                href: "http://localhost/ship3.gltf"
+                href: "gltf/ship2.glb"
             },
-            height: 70,//船高
+            height: 15,//船高
             width : 12,//船长
-            depth : 15,//船宽
+            depth : 70,//船宽
             anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
             heading : 90,
-            tilt : 90
+            tilt : 0
           }]
       };
       var graphic = new Graphic({
@@ -341,21 +341,21 @@ define([
       var location = new Point({
         x: 113.398701,
         y: 22.905898,
-        z: 5
+        z: 13
       });
       var symbol1 = {
           type: "point-3d",  // autocasts as new PointSymbol3D()
           symbolLayers: [{
             type: "object",  // autocasts as new ObjectSymbol3DLayer()
             resource: {
-                href: "http://localhost/ship3.gltf"
+                href: "../gltf/ship2.glb"
             },
-            height: 70,//船高
+            height: 15,//船高
             width : 12,//船长
-            depth : 15,//船宽
+            depth : 70,//船宽
             anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
             heading : 250,
-            tilt : 90
+            tilt : 0
           }]
       };
       var graphic = new Graphic({
@@ -397,21 +397,21 @@ define([
       var location = new Point({
         x: 113.400467,
         y: 22.905394,
-        z: 5
+        z: 13
       });
       var symbol1 = {
           type: "point-3d",  // autocasts as new PointSymbol3D()
           symbolLayers: [{
             type: "object",  // autocasts as new ObjectSymbol3DLayer()
             resource: {
-                href: "http://localhost/ship3.gltf"
+                href: "../gltf/ship2.glb"
             },
-            height: 70,//船高
+            height: 15,//船高
             width : 12,//船长
-            depth : 15,//船宽
+            depth : 70,//船宽
             anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
             heading : 260,
-            tilt : 90
+            tilt : 0
           }]
       };
       var graphic = new Graphic({
@@ -439,108 +439,6 @@ define([
       graphicsWidgets.push(dynamicShip)
 
       sceneView.graphicsWidgets = graphicsWidgets
-      
-      
-      // location = new Point({
-      //         x: 113.388167,
-      //         y: 22.9043672,
-      //         z: 5
-      // });
-      // symbol1 = {
-      //     type: "point-3d",  // autocasts as new PointSymbol3D()
-      //     symbolLayers: [{
-      //     type: "object",  // autocasts as new ObjectSymbol3DLayer()
-      //     resource: {
-      //         href: "http://localhost/ship3.gltf"
-      //     },
-      //     height: 70,//船高
-      //     width : 12,//船长
-      //     depth : 15,//船宽
-      //     anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
-      //     heading : 90,
-      //     tilt : 90
-      //     }]
-      // };
-      // graphic = new Graphic({
-      //     geometry : location,
-      //     symbol : symbol1,
-      //     popupTemplate : new PopupTemplate({
-      //         title  : "XX货运船",
-      //         content : "XX货运船"
-      //     })
-      // });
-
-      // addLayer ? shipLayer.graphics.add(graphic) : null;
-      
-      // location = new Point({
-      //         x: 113.3950858,
-      //         y: 22.9056597,
-      //         z: 5
-      // });
-      // symbol1 = {
-      //     type: "point-3d",  // autocasts as new PointSymbol3D()
-      //     symbolLayers: [{
-      //     type: "object",  // autocasts as new ObjectSymbol3DLayer()
-      //     resource: {
-      //         href: "http://localhost/ship3.gltf"
-      //     },
-      //     height: 70,//船高
-      //     width : 12,//船长
-      //     depth : 15,//船宽
-      //     anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
-      //     heading : 270,
-      //     tilt : 90
-      //     }]
-      // };
-      // graphic = new Graphic({
-      //     geometry : location,
-      //     symbol : symbol1,
-      //     attributes : {
-      //     id : 22,
-      //     name : "22"
-      //     },
-      //     popupTemplate : new PopupTemplate({
-      //         title  : "XX货运船",
-      //         content : "XX货运船"
-      //     })
-      // });
-
-      // addLayer ? shipLayer.graphics.add(graphic) : null;
-      
-      // location = new Point({
-      //         x: 113.3993012,
-      //         y: 22.9059187,
-      //         z: 5
-      // });
-      // symbol1 = {
-      //     type: "point-3d",  // autocasts as new PointSymbol3D()
-      //     symbolLayers: [{
-      //     type: "object",  // autocasts as new ObjectSymbol3DLayer()
-      //     resource: {
-      //         href: "http://localhost/ship3.gltf"
-      //     },
-      //     height: 70,//船高
-      //     width : 12,//船长
-      //     depth : 15,//船宽
-      //     anchor : "top" ,//对齐方式//"center"|"top"|"bottom"|"origin"|"relative"
-      //     heading : 250,
-      //     tilt : 90
-      //     }]
-      // };
-      // graphic = new Graphic({
-      //     geometry : location,
-      //     symbol : symbol1,
-      //     attributes : {
-      //         id : 22,
-      //         name : "22"
-      //     },
-      //     popupTemplate : new PopupTemplate({
-      //         title  : "XX货运船",
-      //         content : "XX货运船"
-      //     })
-      // });
-
-      // addLayer ? shipLayer.graphics.add(graphic) : null;
 
       var polyline = {
         type: "polyline", // autocasts as new Polyline()
