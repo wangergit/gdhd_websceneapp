@@ -58,7 +58,7 @@ Global functions:
 /*global testLoad, ActiveXObject */
 var
   //    the URL of the ArcGIS API for JavaScript, you can change it to point to your own API.
-  apiUrl = "https://localhost/arcgis_js_api_412/library/4.12",
+  apiUrl = "http://wanger.scene.com/arcgis_js_api_412/library/4.12",
 
   //weinreUrl: String
   //    weinre is a tool which can help debug the app on mobile devices.
@@ -93,7 +93,7 @@ var
   var apiVersion = '4.13';
   ////////uncomment the following line when downloading the app
 
-  apiUrl = 'http://localhost/arcgis_js_api413/library/4.13';
+  apiUrl = 'http://wanger.scene.com/arcgis_js_api413/library/4.13';
 
   //////////////////////////////////////////////////////////////
   allCookies = getAllCookies();
